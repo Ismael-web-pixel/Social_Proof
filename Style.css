@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #FBFBFB;
+}
+.conteneur{
+    width: 1000px;
+}
+.card1{
+    display: flex;   
+    gap: 10px;
+    justify-content: space-between;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.products h1 {
+    font-size: 2rem; 
+    color: #55086F;
+    margin-bottom: 20px;
+}
+
+.products p{
+    color: #777;
+    line-height: 1.5rem;
+    margin-top: 1.2;
+}
+.rated5{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    gap: 20px;
+    margin-top: 15px;
+}
+.Stars1, .Stars2, .Stars3{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #F7F3F7;
+}
+.Stars1:hover{
+    background-color: #dbdada;
+}
+.Stars2:hover{
+    background-color: #dbdada;
+}
+.Stars3:hover{
+    background-color: #dbdada;
+}
+.Stars2{
+    margin-right: 20px;
+    margin-left: -20px;
+}
+.Stars3{
+    margin-right: 40px;
+    margin-left: -40px;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+.colton:hover{
+    background-color: #9d19cd;
+}
+.irene:hover{
+    background-color: #8414ad;
+}
+.wallace:hover{
+    background-color: #880fb8;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.colton{
+    background-color: #55086F;
+    color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+.colton img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.Buyer{
+    font-size: 0.95rem;
+}
+.buyer{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.buyer p{
+    color: #C0AAEE;
+}
+.mael {
+    flex-direction: column;
+}
+.mael p{
+
+}
+.irene{
+    background-color: #55086F;
+    color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+.prince{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Roberts{
+    flex-direction: column;
+}
+.Roberts p{
+    color: #C0AAEE;
+}
+.irene img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px
+}
+.wallace{
+    background-color: #55086F;
+    color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+.wallace img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px
+}
+.wallace h3{
+    font-size: 1.1rem;
+}
+.soufi{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.yacine{
+    flex-direction: column;
+}
+.yacine p{
+    color: #C0AAEE;
+}
+.excellent{
+    font-size: 0.95rem;
+}
+.Anne{
+    font-size: 0.95rem;
+}
+.stars{
+    display: flex;
+    white-space: nowrap;
+    align-items: start;
+    justify-content: start;
+}
+img{
+    margin-right: 15px;
+}
+.stars span{
+    font-size: 1rem;
+    color: orange;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.stars p{
+    color: #777;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .conteneur {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rated5 {
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stars p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .products {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .products h2{
+        font-size: 3.1vh;
+        white-space: nowrap;
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .colton{
+        align-items: center; 
+    }
+
+    .irene{
+        align-items: center;
+    }
+
+    .wallace{
+        align-items: center;
+    }
+
+    .Stars1{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        gap: 1.2vh;
+    }
+
+    .Stars2{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        gap: 1.2vh;
+
+    }
+
+    .Stars3{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        gap: 1.2vh;
+
+    }
+
+    .card2{
+        width: 50%;
+    }
+    
+}
+@media (max-width: 425px) {
+    .card2{
+        width: 100%;
+    }
+}
