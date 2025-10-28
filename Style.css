@@ -240,14 +240,17 @@ img{
 
     .colton{
         align-items: center; 
+         width: 380px;
     }
 
     .irene{
         align-items: center;
+         width: 380px;
     }
 
     .wallace{
         align-items: center;
+        width: 380px;
     }
 
     .Stars1{
@@ -277,12 +280,17 @@ img{
     }
 
     .card2{
-        width: 50%;
+        justify-content: center;
+        align-items: center;
     }
     
 }
 @media (max-width: 425px) {
     .card2{
-        width: 100%;
+        width: auto;
+    }
+    .irene, .colton, .wallace{
+        width: auto;
     }
 }
+
