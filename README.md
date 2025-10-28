@@ -40,3 +40,7 @@ L’objectif c'est d’apprendre à structurer une page web et à utiliser les b
  `width`, `height` = Définissent la taille des éléments .
 
  `gap` = Ajoute un espacement entre les éléments .
+
+
+
+
